@@ -71,10 +71,9 @@ button:hover {
 
 .hero-bg {
     position: relative;
-    background-image: url('/assets/hero-bg.png');
+    background-image: url('../assets/hero-bg.png');
     background-size: cover;
     background-position: center;
-    /* height: 500px; */
     padding: 70px 20px;
 }
 
