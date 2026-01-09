@@ -1,0 +1,50 @@
+body {
+    font-family: "Inter", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+button {
+    transition: all 0.3s ease-in-out;
+}
+
+button:hover {
+    background: linear-gradient(135deg, #22c55e, #16a34a, #15803d);
+    transform: translateY(-2px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+
+/* header -------------------------- */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+
+.navbar-button {
+    background-color: #469165;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+
+
+.nav-link a {
+    text-decoration: none;
+    color: #333;
+    margin: 0 10px;
+}
+
+
+
+.logo-img {
+    height: 40px;
+}
