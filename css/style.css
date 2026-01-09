@@ -131,3 +131,62 @@ button:hover {
     color: #f8f8f8;
     border: 2px solid #ffffff;
 }
+
+
+
+/* features-section */
+
+
+.main-content {
+    padding: 0px 70px;
+}
+
+.features-section {
+    padding: 20px 0px;
+}
+
+
+.features-section-title {
+    color: black;
+    text-align: center;
+    font-size: 24px;
+}
+
+
+
+.features-section-paragraph {
+    color: gray;
+    text-align: center;
+    font-size: 14px;
+}
+
+
+
+.card-inner-image-div {
+    background-color: #f95555;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
