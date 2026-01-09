@@ -245,3 +245,32 @@ button:hover {
     margin-bottom: 15px;
     margin-top: 20px;
 }
+/* footer */
+
+
+
+.footer {
+    background-color: #001931;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+
+
+.hr {
+    border: 0.5px solid rgba(128, 128, 128, 0.342);
+}
+
+.Social-link a {
+    gap: 15px;
+    color: white;
+}
