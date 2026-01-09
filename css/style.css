@@ -133,7 +133,6 @@ button:hover {
 }
 
 
-
 /* features-section */
 
 
@@ -189,4 +188,60 @@ button:hover {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 20px;
+}
+
+
+
+/* solution */
+
+.solution-list {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+
+
+.Solution-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.Solution-intro {
+    text-transform: uppercase;
+    color: #469165;
+}
+
+
+
+/* cta section  */
+.cta-section {
+    margin-top: 50px;
+    background-color: #f5f5f5;
+    padding: 40px 20px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.cta-section-paragraph {
+    color: gray;
+    font-size: 16px;
+    margin-bottom: 20px;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+
+.cta-section-button {
+    background-color: #469165;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-bottom: 15px;
+    margin-top: 20px;
 }
