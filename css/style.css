@@ -48,3 +48,86 @@ button:hover {
 .logo-img {
     height: 40px;
 }
+
+
+
+/* banner --------------------------- */
+
+
+
+.hero-section-stat {
+    margin-top: 200px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background: white;
+    border-radius: 30px;
+    max-width: 250px;
+    margin: 0 auto;
+    padding: 0px 20px;
+}
+
+
+
+.hero-bg {
+    position: relative;
+    background-image: url('/assets/hero-bg.png');
+    background-size: cover;
+    background-position: center;
+    /* height: 500px; */
+    padding: 70px 20px;
+}
+
+
+.banner-title {
+    color: white;
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.banner-title span {
+    color: #469165;
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+
+
+.banner-paragraph {
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    margin-bottom: 30px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+
+.banner-button-group {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.banner-button {
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.banner-button-primary {
+    background-color: #469165;
+    color: white;
+}
+
+.banner-button-secondary {
+    background-color: transparent;
+    color: #f8f8f8;
+    border: 2px solid #ffffff;
+}
